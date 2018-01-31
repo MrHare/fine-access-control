@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RadioGroup
+        android:id="@+id/scene_select_radioGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RadioButton
+            android:id="@+id/conference_radioButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Conference Mode"/>
+        <RadioButton
+            android:id="@+id/call_radioButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Call Mode"/>
+        <RadioButton
+            android:id="@+id/payment_radioButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Payment Mode"/>
+        <RadioButton
+            android:id="@+id/privacy_radioButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Privacy Mode"/>
+    </RadioGroup>
+    <Button
+        android:id="@+id/scene_choose_ok_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ok"/>
+</LinearLayout>
